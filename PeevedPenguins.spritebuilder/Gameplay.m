@@ -40,6 +40,7 @@
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
     // ensure followed object is in visible are when starting
+    
 }
 
 
