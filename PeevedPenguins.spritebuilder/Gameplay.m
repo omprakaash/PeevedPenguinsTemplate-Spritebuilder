@@ -41,7 +41,6 @@
     [penguin.physicsBody applyForce:force];
 }
     
-}
 
 // called on every touch in this scene
 @end
