@@ -29,7 +29,7 @@
 	<key>flattenPaths</key>
 	<false/>
 	<key>needRepublish</key>
-	<false/>
+	<true/>
 	<key>onlyPublishCCBs</key>
 	<false/>
 	<key>publishAudioQuality_android</key>
@@ -82,6 +82,8 @@
 		</dict>
 		<key>PeevedPenguinsAssets</key>
 		<dict>
+			<key>isDirty</key>
+			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
