@@ -39,8 +39,7 @@
     NSMutableDictionary* cocos2dSetup = [NSMutableDictionary dictionaryWithContentsOfFile:configPath];
     
     [CCBReader load:@"Penguin"];
-    [CCBReader load:@"Seal"];
-    // Note: this needs to happen before configureCCFileUtils is called, because we need apportable to correctly setup the screen scale factor.
+    [CCBReader load:@"Seal"];    // Note: this needs to happen before configureCCFileUtils is called, because we need apportable to correctly setup the screen scale factor.
 #ifdef APPORTABLE
     if([cocos2dSetup[CCSetupScreenMode] isEqual:CCScreenModeFixed])
         [UIScreen mainScreen].currentMode = [UIScreenMode emulatedMode:UIScreenAspectFitEmulationMode];
